@@ -7,4 +7,5 @@
 # All rights reserved - Do Not Redistribute
 #
 
+rightscale_marker
 log "Pleased to meet you, hope you guessed my name"
