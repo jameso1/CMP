@@ -10,7 +10,7 @@
 rightscale_marker
 
   first_name = node[:about_me][:first_name]
-  roman = node[about_me][:favorite][:roman]
+  roman = node[:about_me][:favorite][:roman]
   romanov = node[:about_me][:favorite][:romanov]
   transport = node[:about_me][:favorite][:transport]
 
