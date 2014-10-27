@@ -14,5 +14,5 @@ rightscale_marker
   romanov = node[:about_me][:favorite][:romanov]
   transport = node[:about_me][:favorite][:transport]
 
-  log "Just call me #{first_name} and I like #{roman}, #{romanov} and travelling by #{tank}."
+  log "Just call me #{first_name} and I like #{roman}, #{romanov} and travelling by #{transport}."
 
