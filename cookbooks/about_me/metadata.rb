@@ -11,7 +11,7 @@ depends "rightscale"
 recipe "about_me::default","Prints my first name and several of my favorites things as output."
 
 # Required #
-attribute "about_me/favorite/hobby",
+attribute "about_me/favorite/transport",
   :display_name => "Transport",
   :description => "My favorite transport.",
   :required => "required",
