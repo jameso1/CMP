@@ -1,3 +1,3 @@
 rightscale_marker
 
-  log "Commencement mark for Offis base installation."
+  log "Completion mark for Offis base installation."
