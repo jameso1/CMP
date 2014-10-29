@@ -12,5 +12,5 @@ recipe "vobase::start_logentry","Log marker for start of vobase install"
 
 recipe "vobase::end_logentry","Log marker for end of vobase install"
 
-recipe "vobase::start_logentry","Log marker for execution of vobase install"
+recipe "vobase::do_install","Log marker for execution of vobase install"
 
