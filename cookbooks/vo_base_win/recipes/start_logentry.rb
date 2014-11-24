@@ -4,7 +4,7 @@
 powershell "start_logentry" do
 
   powershell_script = <<'POWERSHELL_SCRIPT'
-  echo "Commencement mark for Offis base installation." > c:\start_logentry.txt
+  echo "Commencement mark for Offis base installation." > c:\vo_log.txt
 
 POWERSHELL_SCRIPT
   source(powershell_script)
