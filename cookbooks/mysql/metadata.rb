@@ -24,8 +24,16 @@ supports 'scientific'
 supports 'suse'
 supports 'windows'
 
-depends 'openssl',         '~> 1.1'
-depends 'build-essential', '~> 1.4'
+#
+# 20141204: JOD made the following modifications in order to get the scripts to run with 
+# laster versions of build-essential and openssl:
+# - Commented out the following 2 lines
+# - Added version agnostic depends statements
+#
+# depends 'openssl',         '~> 1.1'
+# depends 'build-essential', '~> 1.4'
+depends 'openssl'
+depends 'build-essential'
 
 # wat
 depends 'homebrew'
