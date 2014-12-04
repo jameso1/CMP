@@ -43,7 +43,6 @@ depends 'windows'
 attribute 'mysql/server_root_password',
   :display_name => 'MySQL Server Root Password',
   :description => 'Randomly generated password for the mysqld root user',
-  :required => "required",
   :default => 'randomly generated'
 
 attribute 'mysql/bind_address',
