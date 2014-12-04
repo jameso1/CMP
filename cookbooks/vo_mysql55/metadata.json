@@ -22,6 +22,45 @@
   "replacing": {
   },
   "attributes": {
+    "mysql/server_debian_password": {
+      "display_name": "Debian password",
+      "description": "Value to assign to debian password",
+      "required": "required",
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string",
+      "recipes": [
+
+      ]
+    },
+    "mysql/server_root_password": {
+      "display_name": "root password",
+      "description": "Value to assign to root password",
+      "required": "required",
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string",
+      "recipes": [
+
+      ]
+    },
+    "mysql/server_repl_password": {
+      "display_name": "Replication password",
+      "description": "Value to assign to replication password",
+      "required": "required",
+      "choice": [
+
+      ],
+      "calculated": false,
+      "type": "string",
+      "recipes": [
+
+      ]
+    }
   },
   "groupings": {
   },
